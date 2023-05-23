@@ -19,6 +19,7 @@ To run the environment follow this steps:-
    this will run and give a local host copy and paste it to web browser 
 
 
+![Capture](https://github.com/Ravisheel/Sentiment-Anlaysis-Using-LSTM-Bidirectional-Model/assets/49792350/ff994367-f692-43dd-a8b1-8c755a977822)
 
 
 
