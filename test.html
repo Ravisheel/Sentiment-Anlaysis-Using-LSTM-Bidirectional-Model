@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Deployment</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <style>
+    h1 {
+      text-align: center;
+    }
+    .input-text {
+     margin-top:100px;
+      width: 400px;
+      height: 100px;
+    }
+    .prediction-text {
+      font-size: 20px;
+    }
+  </style>
+</head>
+
+<body style="background: #999;">
+  <div class="login">
+    <h1>Deployment of Sentiment Analysis With LSTM Bidirectional Model</h1>
+    <center><h3>By Ravi Sheel</h3></center>
+    <center><form action="{{ url_for('predict') }}" method="post">
+      <textarea name="text" class="input-text" placeholder="Enter the text here" required="required"></textarea>
+      <br><br>
+      <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+    <br>
+    <br>
+    <div class="prediction-text">
+      {{ prediction_text|safe }}</center>
+    </div>
+  </div>
+</body>
+</html>
