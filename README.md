@@ -21,5 +21,6 @@ To run the environment follow this steps:-
 
 ![Capture](https://github.com/Ravisheel/Sentiment-Anlaysis-Using-LSTM-Bidirectional-Model/assets/49792350/ff994367-f692-43dd-a8b1-8c755a977822)
 
+![Screenshot (174)](https://github.com/Ravisheel/Sentiment-Anlaysis-Using-LSTM-Bidirectional-Model/assets/49792350/c64576e6-a05e-47ec-83c0-f8caa6d1dea3)
 
 
